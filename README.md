@@ -1,8 +1,8 @@
 # Viridia - Mobile Game
 
-### Hand Drawn mobile game created using Unity.
+## Hand Drawn mobile game created using Unity.
 
-## See Pitch Doc for more Info.
+### See Pitch Doc for more Info.
 
 Featues:
 * Unity
