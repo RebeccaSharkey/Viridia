@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Ground
+  - Traverse Sign
+  - Tree
+  - UI
+  - HubInventory
+  - HubHeldMonsters
+  - HubTree
+  - Shop
+  - Friendly Monster
+  - Spawn Location
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Behind UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fight Ground
+    uniqueID: 3676687053
+    locked: 0
+  - name: Fight Overworld
+    uniqueID: 2128239565
+    locked: 0
+  - name: Walkable
+    uniqueID: 1925127127
+    locked: 0
+  - name: Ground
+    uniqueID: 3029978209
+    locked: 0
+  - name: OverWorld
+    uniqueID: 806381289
+    locked: 0
+  - name: Enemies
+    uniqueID: 681818163
+    locked: 0
+  - name: Player
+    uniqueID: 4041991965
+    locked: 0
+  - name: UI
+    uniqueID: 3948633785
+    locked: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daae38332aec34b43b262e579f0d1427, type: 3}
+  m_Name: Moonie
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: b6d30998b4ad68249ad702d616c2dac9, type: 3}
+  maxWalkDistance: 5
+  normalViewRadius: 4
+  chasingViewRadius: 2
+  baseHealth: 100
+  baseAtackPower: 8
+  baseAttackSpeed: 13
+  baseAttackPoints: 120
+  baseMagicPoints: 100
+  baseLevelMultiplier: 1.2
+  allowedAttacks:
+  - {fileID: 11400000, guid: fb04e700a4b41dd48bb884329d7dcd64, type: 2}
+  - {fileID: 11400000, guid: 55c8cebdc3f4f974c8c72c06ee0ca472, type: 2}
+  - {fileID: 11400000, guid: 8c6874954b4362e4fb4f3ceee031dd40, type: 2}
+  - {fileID: 11400000, guid: b1c511457f4255a428cca47893bb3ea9, type: 2}
+  - {fileID: 11400000, guid: 44944133f05de1b478c5585a4f8a2bb5, type: 2}
+  allowedPowerUps: []
+  weakness:
+  - damageType: 1
+    multiplier: 0.2
+  - damageType: 3
+    multiplier: 0.4
+  immunities:
+  - damageType: 4
+    multiplier: 0.75
+  - damageType: 5
+    multiplier: 0.45

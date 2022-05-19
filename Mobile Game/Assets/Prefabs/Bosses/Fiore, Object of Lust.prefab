@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5303115277100861490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5303115277100861489}
+  - component: {fileID: 5548709888633112390}
+  - component: {fileID: 7906600712376381304}
+  - component: {fileID: 5303115277100861488}
+  - component: {fileID: 5303115277100861495}
+  m_Layer: 0
+  m_Name: Fiore, Object of Lust
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5303115277100861489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303115277100861490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: -4.5, z: 0}
+  m_LocalScale: {x: 20, y: 20, z: 4}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5548709888633112390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303115277100861490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e53dbf9fcbf66343a9fe29d893d75ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterSO: {fileID: 11400000, guid: 55c96cc2551a9ff40b83d1b99b5aa16b, type: 2}
+  monster:
+    shortName: Fiore, Object of Lust
+    fullName: Fiore, Object of Lust
+    monsterAggression: 2
+    monsterBuild: 3
+    level: 1
+    catchLevel: 0
+    _sprite: {fileID: 0}
+    spritePath: 
+    maxWalkDistance: -1
+    normalViewRadius: -1
+    chasingViewRadius: -1
+    baseHealth: 100
+    baseAtackPower: 10
+    baseAttackSpeed: 10
+    baseAttackPoints: 10
+    baseMagicPoints: 10
+    baseLevelMultiplier: 0
+    allowedAttacks: []
+    allowedPowerUps: []
+    buildHealthMultiplier: 0
+    buildAttackPowerMultiplier: 0
+    buildAttackSpeedMultiplier: 0
+    buildAttackPointsMultiplier: 0
+    buildMagicPointsMultiplier: 0
+    maxHealth: 100
+    currentHealth: 100
+    currentAttackPower: 10
+    currentAttackSpeed: 10
+    maxActionPoints: 10
+    currentActionPoints: 10
+    maxMagicPoints: 10
+    currentMagicPoints: 10
+    speedBoost: 0
+    defenceBoost: 0
+    attackBoost: 0
+    magicBoost: 0
+    currentAttacks: []
+    currentPowerUps: []
+    weakness: []
+    immunities: []
+  story:
+  - speaker: ???
+    dialogue:
+    - Who dares enter my sanctum? *A large monster twists around to observe you,
+      the black roots that almost completely incase it writh over the monsters skin
+      like they have a life of their own*
+    - Oh.. Hello... *The behemoth lears at you*
+  - speaker: Fiore, Object of Lust
+    dialogue:
+    - I am Fiore, Object of Lust, and who might you be?
+  - speaker: Player
+    dialogue:
+    - '*You stare at the monster in paralysing awe.. you''ve yet to see these creatures
+      speak*'
+  - speaker: Fiore, Object of Lust
+    dialogue:
+    - Hmph, fine... I don't need to know anyway.
+    - 'As much as I''d love to keep you around to play, my Umbra kin and I have far
+      more pressing matters and you''re simply in my way. '
+  abilities: []
+--- !u!114 &7906600712376381304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303115277100861490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f036c1df48c67e242b94848b6ebd788a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsters:
+  - {fileID: 11400000, guid: 9c0492f292991b94791936e8ab9ca7ad, type: 2}
+  - {fileID: 11400000, guid: a5a0525fe063b344f8e07bc64206b667, type: 2}
+--- !u!212 &5303115277100861488
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303115277100861490}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 681818163
+  m_SortingLayer: 6
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 7873111604700333029, guid: a9c7b49cd8b81054199674bbb37237f0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &5303115277100861495
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303115277100861490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

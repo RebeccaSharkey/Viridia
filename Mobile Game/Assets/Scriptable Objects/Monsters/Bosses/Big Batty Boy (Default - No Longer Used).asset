@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daae38332aec34b43b262e579f0d1427, type: 3}
+  m_Name: Big Batty Boy (Default - No Longer Used)
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -4739733615753182034, guid: a9c7b49cd8b81054199674bbb37237f0, type: 3}
+  maxWalkDistance: 5
+  normalViewRadius: 4
+  chasingViewRadius: 2
+  baseHealth: 200
+  baseAtackPower: 15
+  baseAttackSpeed: 0
+  baseAttackPoints: 0
+  baseMagicPoints: 0
+  baseLevelMultiplier: 1.15
+  allowedAttacks: []
+  allowedPowerUps: []
+  weakness:
+  - damageType: 1
+    multiplier: 0.5
+  - damageType: 4
+    multiplier: 0.5
+  immunities:
+  - damageType: 2
+    multiplier: 0.5
+  - damageType: 5
+    multiplier: 1

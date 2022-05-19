@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daae38332aec34b43b262e579f0d1427, type: 3}
+  m_Name: Shroomander
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 525115cb2b87ddc46ad60da0e19eb0f1, type: 3}
+  maxWalkDistance: 5
+  normalViewRadius: 4
+  chasingViewRadius: 2
+  baseHealth: 120
+  baseAtackPower: 12
+  baseAttackSpeed: 8
+  baseAttackPoints: 110
+  baseMagicPoints: 110
+  baseLevelMultiplier: 1.2
+  allowedAttacks:
+  - {fileID: 11400000, guid: 85bbe66fa0e21b34ca732f024dcc0fae, type: 2}
+  - {fileID: 11400000, guid: 8c6874954b4362e4fb4f3ceee031dd40, type: 2}
+  - {fileID: 11400000, guid: 4a8e09f6abc8fc14592668fe5b7ca358, type: 2}
+  - {fileID: 11400000, guid: 643b604b1447d36469718935bf888976, type: 2}
+  - {fileID: 11400000, guid: 5ac99678dd5f4554bac7fbe2e9034f4f, type: 2}
+  allowedPowerUps: []
+  weakness:
+  - damageType: 1
+    multiplier: 0.7
+  - damageType: 0
+    multiplier: 0.5
+  immunities:
+  - damageType: 2
+    multiplier: 1
+  - damageType: 4
+    multiplier: 0.7
+  - damageType: 5
+    multiplier: 0.6

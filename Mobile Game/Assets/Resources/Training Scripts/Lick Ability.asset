@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325ec298a530c9240b9889ec2787f379, type: 3}
+  m_Name: Lick Ability
+  m_EditorClassIdentifier: 
+  itemName: Lick Ability
+  itemIcon: {fileID: 21300000, guid: 2a2f2da490372854fa9b0cc9424a8f4f, type: 3}
+  itemType: 4
+  itemLevel: 1
+  locketLevel: 0
+  potionType: 0
+  potionIncriment: 0
+  potionBoost: 0
+  attack: {fileID: 11400000, guid: 85bbe66fa0e21b34ca732f024dcc0fae, type: 2}
+  powerUp: {fileID: 0}
+  cost: 1100
